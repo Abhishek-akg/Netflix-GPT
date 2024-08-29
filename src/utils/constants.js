@@ -12,3 +12,5 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZjNiMjg4NDc5YWNjNzMxZGE4ZDhhY2I4MGY2MWZlMSIsIm5iZiI6MTcyNDYwMDAwMC4zMzAzMjYsInN1YiI6IjY2Y2I0ZDJlOWFjM2E2YTA5MWQ4NDFlZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qx2DTq0UUnjV_ApqZPSb9YMG1Wipr39Ts3xALpCQNIM",
   },
 };
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
