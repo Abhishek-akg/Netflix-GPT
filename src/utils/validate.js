@@ -11,8 +11,9 @@ export const checkValidData = (email, password) => {
     /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/.test(password);
 
   //if (!isNameValid) return "Full Name is NOT Valid";
-  if (!isEmailValid) return "Email is NOT Valid";
-  if (!isPasswordValid) return "Password incorrect";
+  if (!isEmailValid) return "Email must be like abcd@netflix.com";
+  if (!isPasswordValid)
+    return "Password must have an Uppercase character, a special character, a numeric character and should be of length 8 atleast";
 
   return null;
 };
